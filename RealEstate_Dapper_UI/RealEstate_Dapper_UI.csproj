@@ -7,7 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\EstateAgent\Data\" />
+    <Folder Include="Areas\EstateAgent\Models\" />
+    <Folder Include="wwwroot\images\whoWeAre\" />
+    <Folder Include="wwwroot\images\popLocation\" />
   </ItemGroup>
 
 </Project>
